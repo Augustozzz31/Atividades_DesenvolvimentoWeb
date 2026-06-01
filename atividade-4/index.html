@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotina</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        table{
+            width: 60%;
+            margin: 10%;
+            border-collapse: collapse;
+        }
+        th{
+            background-color: aqua;
+        }
+        td{
+            background-color: aquamarine;
+        }
+        th,td{
+            border: 1px solid red;
+            padding: 8px;
+            text-align: center;
+            color: black;
+        }
+        th:hover,td:hover{
+            background-color: red;
+            transition: 0.5s;
+        }
+        caption{
+            margin: 8px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Rotina Semanal</caption>
+        <tr>
+            <th> </th>
+            <th>DOM</th>
+            <th>SEG</th>
+            <th>TER</th>
+            <th>QUAR</th>
+            <th>QUIN</th>
+            <th>SEX</th>
+            <th>SAB</th>
+        </tr>
+        <tr>
+            <td>Manhã</td>
+            <td>Dormir</td>
+            <td colspan="5">Arrumar/limpar casa</td>
+            <td>Dormir</td>
+        </tr>
+        <tr>
+            <td>Meio-dia</td>
+            <td colspan="7">Almoçar</td>
+        </tr>
+        <tr>
+            <td>Tarde</td>
+            <td rowspan="2">Jogar</td>
+            <td>Estudadar Godot</td>
+            <td>Estudar para Facul</td>
+            <td>Estudar Linguagens</td>
+            <td>Trabalhar no jogo</td>
+            <td>Estudar para Facul</td>
+            <td rowspan="2">Jogar</td>
+        </tr>
+        <tr>
+            <td>Noite</td>
+            <td colspan="5">Faculdade</td>
+        </tr>
+    </table>
+</body>
+</html>
