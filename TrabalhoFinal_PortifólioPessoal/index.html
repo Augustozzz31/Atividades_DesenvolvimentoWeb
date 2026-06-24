@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Início</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="navLink active">Início</a>
+            <a href="sobremim.html" class="navLink">Sobre mim</a>
+            <a href="projetos.html" class="navLink">Projetos</a>
+        </nav>
+    </header>
+
+    <main class="muralContainter">
+        <section class="apresentacao">
+            <h1 class="efeito-digitar">ACESSANDO ARQUIVO: PORTFÓLIO PESSOAL...</h1>
+            <p class="subtitulo efeito-digitar">Status do Arquivo: <span class="status">Ativo</span></p>
+            
+            <button id="botaoCarimbo">Autenticar Ficha</button>
+            <div id="carimbo" class="escondido">APROVADO</div>
+        </section>
+
+        <section class="muralFoto">
+            <div class="fotoPolaroid">
+                <div class="foto">
+                    <img src="imagens/imagem_p_Portifólio.jpg" alt="Foto pessoal">
+                </div>
+                <button id="botaoCarimboFoto">Autenticar Foto</button>
+                <div id="carimboFoto" class="escondido">AUTENTICADO</div>
+            </div>
+        </section>
+    </main>
+
+    <div class="logo">
+        <img src="https://cdn.tecconcursos.com.br/figuras/01397272-d3df-470e-b8d5-46a1c5819957" alt="Logo UniFil">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
